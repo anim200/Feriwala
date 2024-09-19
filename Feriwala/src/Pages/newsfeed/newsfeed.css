@@ -1,0 +1,22 @@
+.homecontainer {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    transition: filter 0.3s ease; /* Smooth transition for blur effect */
+  }
+  
+  .homecontainer.blurry {
+    filter: blur(5px); /* Apply blur when the ChatList is open */
+  }
+  
+  /* Additional CSS for ChatList overlay, if needed */
+  .chatOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay behind ChatList */
+    z-index: 999; /* Ensure it's on top of other components */
+  }
+  

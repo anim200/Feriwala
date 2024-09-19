@@ -1,0 +1,145 @@
+.container {
+    flex: 4;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .advertisement-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .form-group label {
+    margin-bottom: 8px;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .form-group textarea {
+    width: calc(100% - 30px); /* Adjust width to include padding */
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    margin-right: 15px; /* Add margin to create space on the right side */
+  }
+  
+  .form-group input[type="file"] {
+    width: calc(100% - 30px); /* Adjust width to include padding */
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px dashed #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #999;
+    margin-right: 15px; /* Add margin to create space on the right side */
+  }
+  
+  .form-group textarea:focus,
+  .form-group input[type="file"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+    background-color: #fff;
+  }
+  
+  .submit-btn {
+    padding: 12px 20px;
+    background-color: #2ed981;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2ed981;
+  }
+  .error-message {
+    color: red;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .success-message {
+    color: green;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .ads-list {
+    margin-top: 40px;
+  }
+  
+  .ad-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .ad-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    flex-shrink: 0; /* Prevent the image from shrinking */
+  }
+  
+  .ad-item p {
+    flex: 1;
+    margin: 0;
+    margin-right: 15px;
+    word-wrap: break-word; /* Allow long words to break and wrap to the next line */
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-shrink: 0; /* Prevent the button from shrinking */
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  .adv{
+    margin-bottom: 1rem;
+  }
+  
+  

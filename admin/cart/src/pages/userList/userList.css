@@ -1,0 +1,81 @@
+.userList {
+  flex: 4;
+  padding: 20px;
+  
+  margin: 0 auto;
+}
+
+.userTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.userTable th,
+.userTable td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.userListEdit {
+  background-color: #3bb077;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.userListDelete {
+  color: red;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.userListDelete:hover {
+  color: darkred;
+}
+/* Button Styles */
+.createAdminButton {
+  background-color: #2ed981; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding for size */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  margin: 10px 0; /* Space around the button */
+  display: inline-block; /* Keeps the button in line with text */
+}
+
+/* Hover Effect */
+.createAdminButton:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Active/Pressed Effect */
+.createAdminButton:active {
+  background-color: #3e8e41; /* Even darker green when active */
+  transform: translateY(0); /* Button returns to normal position */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+}
+

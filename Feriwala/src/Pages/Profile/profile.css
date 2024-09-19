@@ -1,0 +1,174 @@
+
+
+
+
+/* NavbarTop */
+.navbar-top {
+    background-color: teal;
+    color: white;
+    box-shadow: 0px 4px 8px 0px grey;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+
+/* Main Profile Section */
+.bsection{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+To center the profile section horizontally and ensure it's correctly aligned on the page, you can make a few adjustments to your CSS:
+
+Updated CSS
+Here's the updated CSS with the necessary changes:
+
+css
+Copy code
+/* NavbarTop */
+.navbar-top {
+    background-color: teal;
+    color: white;
+    box-shadow: 0px 4px 8px 0px grey;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures navbar is always on top */
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+
+/* Main Profile Section */
+.bsection {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 120px; /* Adjust to give space from the fixed navbar */
+    width: 100%;
+    max-width: 500px; /* Limit the maximum width of the profile section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-left: 35vw;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 1px grey;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Centering the image horizontally */
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.job {
+    font-size: 18px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    color: teal;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: teal;
+    color: white;
+}
+
+/* Card Section */
+.card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card table {
+    width: 100%;
+    font-size: 16px;
+    border-spacing: 0 10px; /* Adds space between rows */
+}
+
+.card table tr {
+    height: 50px;
+}
+
+.card td {
+    padding: 5px;
+}
+
+.card .edit {
+    position: absolute;
+    right: 20px;
+    color: #e7e7e8;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+

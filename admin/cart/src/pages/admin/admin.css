@@ -1,0 +1,82 @@
+/* Container Styles */
+.admin-container {
+    flex: 4;
+    
+
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title Styles */
+  .admin-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Form Styles */
+  .admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input Group Styles */
+  .admin-input-group {
+    text-align: left;
+  }
+  
+  .admin-input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+  }
+  
+  .admin-input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  /* Input Focus Effect */
+  .admin-input-group input:focus {
+    border-color: #3bb077;
+    outline: none;
+  }
+  
+  /* Button Styles */
+  .admin-submit-btn {
+    background-color: #3bb077;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+  }
+  
+  /* Button Hover Effect */
+  .admin-submit-btn:hover {
+    background-color: #339966;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Button Active Effect */
+  .admin-submit-btn:active {
+    background-color: #2e8b57;
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

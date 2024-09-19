@@ -1,0 +1,143 @@
+.rightbar {
+    flex: 3.5;
+    overflow-y: scroll;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+
+    padding: 20px;
+    box-shadow: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #90a4ae;
+    border-radius: 10px;
+}
+
+.rightbarWrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.birthdayContainer {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.birthdayContainer:hover {
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.advertise {
+    font-weight: 700;
+    font-size: 22px;
+    color: #1a237e;
+    letter-spacing: 1px;
+}
+
+.rightbarAd {
+    width: 100%;
+    border-radius: 15px;
+    margin: 30px 0;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rightbarAd:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.rightbarTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1a237e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.rightbarInfo {
+    margin-bottom: 30px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.rightbarInfo:hover {
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.rightbarInfoItem {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #546e7a;
+}
+
+.rightbarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rightbarFollowing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.rightbarFollowing:hover {
+    transform: scale(1.1);
+}
+
+.rightbarFollowingImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.rightbarFollowingImg:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.rightbarUsername {
+    font-weight: 600;
+    color: #1a237e;
+    margin-top: 10px;
+    text-align: center;
+}
+.hr{
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px 0;
+    width: 80%;  /* Adjusts the width to be smaller than the container */
+}
