@@ -82,7 +82,7 @@ There is also an admin dashboard to control the site.
 ![Alt text describing the image](https://i.imgur.com/tSzFd7v.png)
 ### Chat Page
 - Enables chat between buyers and sellers regarding products.
-![Alt text describing the image](https://i.imgur.com/kVKKy8b.png)
+![Alt text describing the image](https://i.imgur.com/jtJad3t.jpeg)
 ## Admin Pages
 
 ### Admin Home Page
